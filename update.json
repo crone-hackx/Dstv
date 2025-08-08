@@ -1,0 +1,10 @@
+{
+  "version": "1.0.2",
+  "message": "🆕 New version available! Click to update.",
+  "update_url": "https://raw.githubusercontent.com/crone-hackx/Dstv/main/web/",
+  "files": [
+    "welcome.html",
+    "welcome.css",
+    "welcome.js"
+  ]
+}
