@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DStv 24 Easy Data Saver</title>
+  <link rel="stylesheet" href="welcome.css" />
+</head>
+<body>
+  <div class="loading-screen" id="loading-screen">
+    <div class="loader-circle"></div>
+    <div class="loader-bar">
+      <div class="loader-fill"></div>
+    </div>
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <div class="welcome-screen hidden" id="welcome-screen">
+    <h1 class="glow-text">Welcome to DStv 24 Easy Data Saver App</h1>
+
+    <div class="selection-container">
+      <select id="language-select">
+        <option value="" disabled selected>Select Language</option>
+      </select>
+
+      <select id="country-select">
+        <option value="" disabled selected>Select Country</option>
+      </select>
+
+      <button id="proceed-btn">Continue</button>
+    </div>
+  </div>
+
+  <script src="welcome.js"></script>
+</body>
+</html>
